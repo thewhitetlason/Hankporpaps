@@ -121,7 +121,7 @@ nav .menu{
  cursor: pointer;
  outline: none;
  transition: all 0.3s ease;
-
+--secret-code: "7432912";
 }
 
 .center .btns button:first-child{

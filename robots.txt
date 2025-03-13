@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /admin # Section4: _mu_7
+Disallow: /secret-path

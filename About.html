@@ -29,7 +29,13 @@
     <div style="display:none">Nandito pero wala sa html ( ͡° ͜ʖ ͡°)</div>
     <button>Learn More</button>
     <button>Subscribe</button>
-<script src="script.js"></script>
+      <script>
+        window.onload = function() {
+            const script = document.createElement('script');
+            script.src = 'script.js';
+            document.body.appendChild(script);
+        };
+</script>
   </div>
 </div>
 </body>
